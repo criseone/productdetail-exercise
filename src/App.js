@@ -10,6 +10,7 @@ function App() {
         <p>
           This is the most popular product ever!
         </p>
+        <details className="App-details">
         <ul>
         <li>
           Over 1'000'000 pieces sold!
@@ -24,6 +25,7 @@ function App() {
           And much more!
         </li>
         </ul>
+        </details>
         <a
           className="App-link"
           href="https://www.playstation.com/de-ch/"
