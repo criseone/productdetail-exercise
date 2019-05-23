@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: 'Play', sans-serif;
 }
 
 .App-logo {
@@ -21,6 +22,7 @@
 }
 
 .App-body {
+  font-family: 'Play', sans-serif;
   background-color: white;
   min-height: 80vh;
   display: flex;
