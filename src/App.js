@@ -1,15 +1,18 @@
 import React from 'react';
 import logo from './assets/playstation.png';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
           This is the most popular product ever!
         </p>
+        </header>
+      <body className="App-body">
+        <img src={logo} className="App-logo" alt="logo" />
         <details className="App-details">
         <ul>
         <li>
@@ -34,7 +37,7 @@ function App() {
         >
           Learn More
         </a>
-      </header>
+        </body>
     </div>
 
   

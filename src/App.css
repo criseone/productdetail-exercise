@@ -4,13 +4,14 @@
 
 .App-logo {
   /*animation: App-logo-spin infinite 20s linear;*/
-  height: 40vmin;
+  max-height: 40vmin;
   pointer-events: none;
+  position: relative;
 }
 
 .App-header {
-  background-color: white;
-  min-height: 80vh;
+  background-color: blueviolet;
+  min-height: 20vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -19,8 +20,20 @@
   color: black;
 }
 
+.App-body {
+  background-color: white;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /*justify-content: center;*/
+  font-size: calc(10px + 2vmin);
+  color: black;
+  padding: 5%;
+}
+
 .App-link {
-  align-items: baseline;
   color: #61dafb;
 }
 
